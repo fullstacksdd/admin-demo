@@ -1,5 +1,7 @@
 package com.admin.demo.model;
 
+import java.util.List;
+
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
@@ -27,16 +29,8 @@ public class Customer {
     @Size(max=100)
     @Indexed(unique=true)
 	private String emailId;
-	
-	public Customer() {
-		
-	}
-	
-	public Customer(String firstName, String lastName, String emailId) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.emailId = emailId;
-	}
+	private List<Product> products;
+	private Address address;
 	
 	public long getId() {
 		return id;
@@ -65,10 +59,24 @@ public class Customer {
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
-
+	
+	public List<Product> getProducts() {
+		return (List<Product>) products;
+	}
+	public void setProducts(List<Product> products) {
+		this.products = products;
+	}
+	
+	public String getAddress() {
+		return address.toString();
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	@Override
 	public String toString() {
 		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", emailId=" + emailId
-				+ "]";
-	}	
+				+ ", products=" + products + ", address=" + address + "]";
+	}
+	
 }

@@ -8,4 +8,6 @@ import com.admin.demo.model.Customer;
 @Repository
 public interface CustomerRepository extends MongoRepository<Customer, Long>{
 
+	
+	
 }
