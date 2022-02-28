@@ -37,7 +37,94 @@
 - GET - http://localhost:8080/api/v1/customers/1
 - DELETE - http://localhost:8080/api/v1/customers/3
   
-- /react-frontend is a react project to CRUD data its has some issues
+## Postman
 
+POST data
+
+{
+    "firstName": "David",
+    "lastName": "Windsor",
+    "emailId": "david.windsor@fullstack.com",
+    "products": [
+        {
+            "productName": "Sony TV 4K",
+            "productDescription": "75 inch Television latest technology",
+            "price": "2995.00"
+        },
+        {
+            "productName": "Apple Mac Pro 13 inch",
+            "productDescription": "16gb memory 2.8hz fast retina laptop",
+            "price": ""
+        }
+    ],
+    "address": {
+        "buildingName": "Del Amitri House",
+        "flatNumber": "554",
+        "addressline1": "523",
+        "addressline2": "Alvah Ramp",
+        "addressline3": "Dehrastig",
+        "town": "Rio De Janeiro",
+        "postCode": "50032",
+        "county": "Buckinghamshire"
+    }
+},
+{
+    "firstName": "David",
+    "lastName": "Windsor",
+    "emailId": "david.windsor@fullstack.com",
+    "products": [
+        {
+            "productName": "Sony TV 4K",
+            "productDescription": "75 inch Television latest technology",
+            "price": "2995.00"
+        },
+        {
+            "productName": "Apple Mac Pro 13 inch",
+            "productDescription": "16gb memory 2.8hz fast retina laptop",
+            "price": ""
+        }
+    ],
+    "address": {
+        "buildingName": "Del Amitri House",
+        "flatNumber": "554",
+        "addressline1": "523",
+        "addressline2": "Alvah Ramp",
+        "addressline3": "Dehrastig",
+        "town": "Rio De Janeiro",
+        "postCode": "50032",
+        "county": "Buckinghamshire"
+    }
+},
+{
+    "firstName": "David",
+    "lastName": "Windsor",
+    "emailId": "david.windsor@fullstack.com",
+    "products": [
+        {
+            "productName": "Sony TV 4K",
+            "productDescription": "75 inch Television latest technology",
+            "price": "2995.00"
+        },
+        {
+            "productName": "Apple Mac Pro 13 inch",
+            "productDescription": "16gb memory 2.8hz fast retina laptop",
+            "price": ""
+        }
+    ],
+    "address": {
+        "buildingName": "Del Amitri House",
+        "flatNumber": "554",
+        "addressline1": "523",
+        "addressline2": "Alvah Ramp",
+        "addressline3": "Dehrastig",
+        "town": "Rio De Janeiro",
+        "postCode": "50032",
+        "county": "Buckinghamshire"
+    }
+}
+  
+## React
+  
+- /react-frontend accompany's this project to CRUD data, but it has issues
 
 
