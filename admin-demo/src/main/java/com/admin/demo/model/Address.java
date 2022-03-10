@@ -2,16 +2,12 @@ package com.admin.demo.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-//import lombok.AllArgsConstructor;
-//import lombok.data;
-//
-//@Data
-//@AllArgsConstructor
 @Document (collection = "Address")
 public class Address {
 	
 	private String buildingName;
 	private String flatNumber;
+	private String houseNumber;
 	private String addressline1;
 	private String addressline2;
 	private String addressline3;
@@ -33,6 +29,12 @@ public class Address {
 	}
 	public void setFlatNumber(String flatNumber) {
 		this.flatNumber = flatNumber;
+	}
+	public String getHouseNumber() {
+		return houseNumber;
+	}
+	public void setHouseNumber(String houseNumber) {
+		this.houseNumber = houseNumber;
 	}
 	public String getAddressline1() {
 		return addressline1;

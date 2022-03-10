@@ -52,21 +52,18 @@ public class Customer {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
 	public String getEmailId() {
 		return emailId;
 	}
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
 	}
-	
 	public List<Product> getProducts() {
 		return (List<Product>) products;
 	}
 	public void setProducts(List<Product> products) {
 		this.products = products;
 	}
-	
 	public String getAddress() {
 		return address.toString();
 	}
@@ -78,5 +75,4 @@ public class Customer {
 		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", emailId=" + emailId
 				+ ", products=" + products + ", address=" + address + "]";
 	}
-	
 }

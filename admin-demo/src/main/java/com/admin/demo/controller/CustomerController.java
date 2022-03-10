@@ -23,7 +23,7 @@ import com.admin.demo.model.Customer;
 import com.admin.demo.repository.CustomerRepository;
 import com.admin.demo.service.SequenceGeneratorService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = { "http://localhost:3000", "http://localhost:8080" })
 @RestController
 @RequestMapping("/api/v1")
 public class CustomerController {
