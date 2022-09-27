@@ -131,3 +131,7 @@ POST data
 ## Jenkins
   
 - automatic build in Jenkins
+  
+## SonarQube
+  
+- analysis from SonarQub on push or commit
