@@ -128,3 +128,6 @@ POST data
 - /react-frontend accompany's this project to CRUD data, but it has issues
 
 
+## Jenkins
+  
+- automatic build in Jenkins
